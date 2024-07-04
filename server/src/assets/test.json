@@ -1,0 +1,45 @@
+{
+    "NEW_USER_1": {
+        "TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUT0tFTl9JRCI6ImIyMTkxZDQ0LTMxNTEtNGIyMi1hY2I4LTQ0NzlkMWQ1ZGQ1ZiIsIk5BTUUiOiJBZG1pbiBVc2VyIiwiRU1BSUwiOiJhZG1pbnVzZXJAZ21haWwuY29tIiwiaWF0IjoxNzIwMDgxNTcyLCJleHAiOjE3MjA2ODYzNzJ9.RF4uIl3LMBzNoJSVpALzasRG8MyTSEh6rPIClZQF7ig",
+        "SESSION": "c058985e-cea9-4088-a5f0-f3ed2c6e84ac",
+        "PASSWORD": "123456",
+        "EMAIL": "adminuser@gmail.com",
+        "NAME": "Admin User",
+        "WORK_TYPE": "Developer",
+        "BIO": "lorem epsilon bio for admin user",
+        "SOCIAL_LINKS": [
+            "www.facebook.com/admin-user",
+            "www.linkedin.com/admin-user"
+        ],
+        "PROFILE_PIC": "image.png"
+    },
+    "NEW_USER_2": {
+        "TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJOQU1FIjoiVGVzdCBVc2VyIiwiRU1BSUwiOiJ0ZXN0dXNlckBnbWFpbC5jb20iLCJUT0tFTl9JRCI6IjYwZjcwZDdkLTU5MzAtNDNjNC1hN2Y0LTk3MzkzMjZiMzdlZSIsImlhdCI6MTcyMDA5NjY2OCwiZXhwIjoxNzIwNzAxNDY4fQ.F5WmyL_A56KQ0AS9Sym4zNK8ntpGTA4ByMZW61QnOv4",
+        "SESSION": "656aeeeb-4f0e-4619-856c-3ff52529adca",
+        "PASSWORD": "123456",
+        "EMAIL": "testuser@gmail.com",
+        "NAME": "Test User",
+        "WORK_TYPE": "Designer",
+        "BIO": "lorem epsilon bio for admin user",
+        "SOCIAL_LINKS": [
+            "www.facebook.com/test-user",
+            "www.linkedin.com/test-user"
+        ],
+        "PROFILE_PIC": "image-test.png"
+    },
+    "NEW_BLOG_1": {
+        "INTRO": "INTRO FOR NEW BLOG",
+        "HEADER": "HEADER FOR NEW BLOG",
+        "BODY:": "BODY FOR NEW BLOG",
+        "INTRO_IMAGE": "NEW_BLOG.png",
+        "SEARCH_KEYS": [
+            "MUSIC",
+            "ART"
+        ],
+        "IMGS": [
+            "img1.png",
+            "img2.png"
+        ]
+    },
+    "TEST_BLOG_ID": "7778fd7c-a969-4724-b132-5a75a77b387e"
+}
