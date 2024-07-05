@@ -1,0 +1,216 @@
+{
+    "blogs": [
+        {
+            "BLOG_ID": "7778fd7c-a969-4724-b132-5a75a77b387e",
+            "INTRO_IMAGE": "updated.png",
+            "HEADER": "updated header",
+            "SEARCH_KEYS": [
+                "MUSIC"
+            ],
+            "INTRO": "updated intro",
+            "USER_NAME": "Test User",
+            "LIKES": 1,
+            "SAVES": 0,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 1,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog13",
+            "INTRO_IMAGE": "intro_image_blog13.jpg",
+            "HEADER": "Blog 13 Header",
+            "SEARCH_KEYS": [
+                "ART",
+                "EXHIBITIONS"
+            ],
+            "INTRO": "Intro for blog 13",
+            "USER_NAME": "Frank",
+            "LIKES": 2,
+            "SAVES": 0,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog15",
+            "INTRO_IMAGE": "intro_image_blog15.jpg",
+            "HEADER": "Blog 15 Header",
+            "SEARCH_KEYS": [
+                "MUSIC",
+                "REVIEWS"
+            ],
+            "INTRO": "Intro for blog 15",
+            "USER_NAME": "Hank",
+            "LIKES": 1,
+            "SAVES": 0,
+            "COMMENTS": 1,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog18",
+            "INTRO_IMAGE": "intro_image_blog18.jpg",
+            "HEADER": "Blog 18 Header",
+            "SEARCH_KEYS": [
+                "ART",
+                "DESIGN"
+            ],
+            "INTRO": "Intro for blog 18",
+            "USER_NAME": "Alice",
+            "LIKES": 4,
+            "SAVES": 4,
+            "COMMENTS": 4,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog2",
+            "INTRO_IMAGE": "intro_image_blog2.jpg",
+            "HEADER": "Blog 2 Header",
+            "SEARCH_KEYS": [
+                "ART",
+                "DESIGN"
+            ],
+            "INTRO": "Intro for blog 2",
+            "USER_NAME": "Bob",
+            "LIKES": 1,
+            "SAVES": 0,
+            "COMMENTS": 1,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog21",
+            "INTRO_IMAGE": "intro_image_blog21.jpg",
+            "HEADER": "Blog 21 Header",
+            "SEARCH_KEYS": [
+                "MUSIC",
+                "PHOTOGRAPHY"
+            ],
+            "INTRO": "Intro for blog 21",
+            "USER_NAME": "Alice",
+            "LIKES": 2,
+            "SAVES": 2,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog29",
+            "INTRO_IMAGE": "intro_image_blog29.jpg",
+            "HEADER": "Blog 29 Header",
+            "SEARCH_KEYS": [
+                "ART",
+                "EXHIBITIONS"
+            ],
+            "INTRO": "Intro for blog 29",
+            "USER_NAME": "Alice",
+            "LIKES": 2,
+            "SAVES": 2,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog31",
+            "INTRO_IMAGE": "intro_image_blog31.jpg",
+            "HEADER": "Blog 31 Header",
+            "SEARCH_KEYS": [
+                "MUSIC",
+                "REVIEWS"
+            ],
+            "INTRO": "Intro for blog 31",
+            "USER_NAME": "Alice",
+            "LIKES": 2,
+            "SAVES": 2,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog34",
+            "INTRO_IMAGE": "intro_image_blog34.jpg",
+            "HEADER": "Blog 34 Header",
+            "SEARCH_KEYS": [
+                "ART",
+                "DESIGN"
+            ],
+            "INTRO": "Intro for blog 34",
+            "USER_NAME": "Charlie",
+            "LIKES": 2,
+            "SAVES": 2,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        {
+            "BLOG_ID": "blog37",
+            "INTRO_IMAGE": "intro_image_blog37.jpg",
+            "HEADER": "Blog 37 Header",
+            "SEARCH_KEYS": [
+                "MUSIC",
+                "PHOTOGRAPHY"
+            ],
+            "INTRO": "Intro for blog 37",
+            "USER_NAME": "Frank",
+            "LIKES": 2,
+            "SAVES": 2,
+            "COMMENTS": 2,
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        }
+    ],
+    "blog-profile": {
+        "blog": {
+            "BLOG_ID": "blog2",
+            "HEADER": "Blog 2 Header",
+            "INTRO": "Intro for blog 2",
+            "BODY": "Body of blog 2",
+            "USER_EMAIL": "bob@example.com",
+            "INTRO_IMAGE": "intro_image_blog2.jpg",
+            "USER_NAME": "Bob",
+            "CREATED_ON": "2024-06-29T18:30:00.000Z",
+            "LIKES": 1,
+            "COMMENTS": 1,
+            "SAVES": 0,
+            "SEARCH_KEYS": [
+                "ART",
+                "DESIGN"
+            ],
+            "IMAGE_LINKS": [
+                "image1_blog2.jpg",
+                "image2_blog2.jpg"
+            ],
+            "LIKED_BY_YOU": 0,
+            "SAVED_BY_YOU": 0
+        },
+        "owner": false
+    },
+    "users": [
+        {
+            "NAME": "Alice",
+            "EMAIL": "alice@example.com",
+            "PROFILE_PIC": "profile_pic_alice.jpg"
+        },
+        {
+            "NAME": "Admin User",
+            "EMAIL": "adminuser@gmail.com",
+            "PROFILE_PIC": null
+        }
+    ],
+    "user-profile": {
+        "user": {
+            "NAME": "Alice",
+            "EMAIL": "alice@example.com",
+            "WORK_TYPE": "Developer",
+            "BIO": "Bio for Alice",
+            "PROFILE_PIC": "profile_pic_alice.jpg",
+            "FOLLOWED_BY": 3,
+            "FOLLOWING": 4,
+            "LINKS": "https://twitter.com/alice,https://linkedin.com/in/alice,https://facebook.com/alice",
+            "FOLLOWED_BY_YOU": 0,
+            "FOLLOWING_YOU": 0
+        },
+        "owner": false
+    }
+}

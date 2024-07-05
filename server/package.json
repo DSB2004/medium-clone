@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node build",
-    "build": "tsc",
+    "build": "tsc -p",
     "dev": "tsc-watch --onSuccess \"npm start\" ",
     "test": "jest"
   },

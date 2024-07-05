@@ -3,7 +3,7 @@ import { GET_CONNECTION, QUERY } from "../../utils/handle-connection";
 import { Response, Request } from "express";
 import { RequestType } from "../../types/index.types";
 
-const SQL_QUERY = 'SELECT * , (SELECT EXISTS ( SELECT 1 FROM BLOG_LIKES WHERE BLOG_ID = ? AND USER_EMAIL= ? )) AS "LIKED_BY_YOU" FROM BLOG_PROFILE WHERE BLOG_ID=?';
+const SQL_QUERY = 'SELECT * , (SELECT EXISTS ( SELECT 1 FROM BLOG_LIKES WHERE BLOG_ID = ? AND USER_EMAIL= ? )) AS "LIKED_BY_YOU" , (SELECT EXISTS ( SELECT 1 FROM BLOG_SAVES WHERE BLOG_ID = ? AND USER_EMAIL= ? )) AS "SAVED_BY_YOU" FROM BLOG_PROFILE WHERE BLOG_ID=?';
 
 
 const GET_BLOG_PROFILE = async (req: RequestType, res: Response) => {
@@ -17,7 +17,7 @@ const GET_BLOG_PROFILE = async (req: RequestType, res: Response) => {
     }
     try {
         connection = await GET_CONNECTION(DATABASE_INSTANCE);
-        const result = await QUERY(connection, SQL_QUERY, [req_blog, user_email, req_blog]);
+        const result = await QUERY(connection, SQL_QUERY, [req_blog, user_email, req_blog, user_email, req_blog]);
         if (result && result.length > 0) {
             if (result[0]['SEARCH_KEYS']) {
                 result[0]['SEARCH_KEYS'] = result[0]['SEARCH_KEYS'].split(',');

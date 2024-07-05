@@ -13,8 +13,11 @@ import GOOGLE_ROUTER from "./routes/google-auth.routes";
 import FOLLOWER_ROUTER from './routes/followers.routes';
 import BLOG_ROUTER from './routes/blog.routes';
 import COMMENT_ROUTER from './routes/comments.routes';
-const app = express();
+import EXTRA_ROUTER from './routes/extra.routes';
 
+
+
+const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 
@@ -40,6 +43,7 @@ app.use(`/api/${VERSION}/blogs/`, TOKEN_MIDDLEWARE, BLOG_ROUTER);
 app.use(`/api/${VERSION}/followers/`, TOKEN_MIDDLEWARE, FOLLOWER_ROUTER);
 // @ts-ignore
 app.use(`/api/${VERSION}/comments`, TOKEN_MIDDLEWARE, COMMENT_ROUTER);
+app.use(`/api/${VERSION}/extra`, EXTRA_ROUTER);
 
 // console.log(VERSION)
 export default app;
